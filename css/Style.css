@@ -1,0 +1,206 @@
+body{
+    background-color: #66fcf1;
+} 
+
+.gadget-container{
+    background-color: ##45a29e;
+    border:10px double #1f2833;
+    padding: 10px;
+    margin: 20px;
+    width: 30%;
+    height: 20px;
+    display: flex;
+    justify-content:left;
+    vertical-align: left;
+    align-items: center;
+    border-radius: 100px;
+    box-shadow: 0 0 10px rgba(0, 0, 90, 90);
+    border-bottom: #c5c6c7;
+    position: absolute;
+    
+}
+
+
+
+.login-button{
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    float: right;
+    margin-left: 20px;
+
+
+}
+.signup-button{
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    float: right;
+
+
+}
+
+.signup-container{
+    background-color: ##45a29e;
+    border:10px double #1f2833;
+    padding: 10px;
+    margin: 20px;
+    width: 30%;
+    height: 20px;
+    display: flex;
+    justify-content:left;
+    vertical-align: left;
+    align-items: center;
+    border-radius: 100px;
+    box-shadow: 0 0 10px rgba(0, 0, 90, 90);
+    border-bottom: #c5c6c7;
+    
+}
+
+
+
+
+ header{
+     background-color: #333;
+     color: #66fcf1;
+     font-size: 24px;
+     font-family: Arial, sans-serif;
+     padding: 20px;
+     margin: 20px;
+     border-bottom: 1px solid #66fcf1;
+     box-shadow: 0 0 10px rgba(0, 0, 20, 20);
+     border-radius: 50px;
+     display: flex;
+     justify-content: space-between;
+      height: cover;
+    background-position: center;
+
+ }
+
+.top-container{
+    background-color: #1f2833;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 20px;
+    width: 60%;
+    height: 300px;
+    display: flex;
+    justify-content:center;
+    vertical-align: top;
+    align-items: center;
+    border-radius: 50px;
+    box-shadow: 0 0 10px rgba(0, 0, 20, 20);
+    border-bottom: #c5c6c7;
+    
+}
+ p{
+    font-size: 50px;
+    color:  #333;
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+img{
+    opacity: 0,5;
+    object-fit: cover;
+     border-radius: 50px;
+     box-shadow: 0 0 10px rgba(0, 0, 20, 20);
+     max-width: 100%;
+}
+
+.middle-container{
+     background-color: #1f2833;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 20px;
+    width: 80%;
+    height: 300px;
+    display: flex;
+    justify-content:center;
+    vertical-align: top;
+    align-items: center;
+    border-radius: 50px;
+    box-shadow: 0 0 10px rgba(0, 0, 20, 20);
+    border-bottom: #c5c6c7;
+    
+
+}
+.list {
+    columns: 3; /* Divide into 3 columns */
+    columns-gap:20px;
+    justify-content: space-between;
+     background-color: #1f2833;
+     font-size: 19px; /*Increase text size */
+     font-family: Times New Roman, serif; /* Change font */
+    width: 95%;
+    height: 90px;
+    border: 1px solid #ddd;
+    padding: 20px;
+    padding-left: 20px;
+     border-radius: 50px;
+    box-shadow: 0 0 10px rgba(0, 0, 20, 20);
+    border-bottom: #c5c6c7;
+   
+}
+.list li {
+    text-align: justify-all;
+    margin-bottom: 20px;
+    color: #66fcf1;
+    text-shadow:0 0 10px rgba(0, 0, 20, 20) ;
+}
+.list li b{
+    color: #c5c6c7;
+}
+
+.list-two {
+    columns-gap:20px;
+    justify-content: space-between;
+     background-color: #1f2833;
+     font-size: 19px; /*Increase text size */
+     font-family: Times New Roman, serif; /* Change font */
+    width: 20%;
+    height: 100px;
+    border: 1px solid #ddd;
+    padding: 20px;
+    padding-left: 100px;
+     border-radius: 50px;
+    box-shadow: 0 0 10px rgba(0, 0, 20, 20);
+    border-bottom: #c5c6c7;
+
+   
+}
+.list-two li {
+    text-align: justify-all;
+    margin-bottom: 20px;
+    color: #66fcf1;
+    text-shadow:0 0 10px rgba(0, 0, 20, 20) ;
+}
+.shop{
+    background-color: #333;
+     color: #66fcf1;
+     font-size: 24px;
+     font-family: Arial, sans-serif;
+     padding: 70px;
+     margin: 20px;
+     border-bottom: 1px solid #66fcf1;
+     box-shadow: 0 0 10px rgba(0, 0, 20, 20);
+     border-radius: 100px;
+     display: flex;
+     justify-content: space-between;
+      height: cover;
+    background-position: center;
+     text-align: center;
+    width: 30%;
+    height: 30px;
+    vertical-align: top;
+    align-items: center;
+    float: right;
+    
+    
+}
